@@ -13,7 +13,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
 api = tweepy.API(auth)
 
-tweeting_time = 15 #15 seconds for testing
+tweeting_time = 60 
 #hours = 12
 #tweeting_time = 3600*hours
 
