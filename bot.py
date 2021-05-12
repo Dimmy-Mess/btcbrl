@@ -1,7 +1,13 @@
 import tweepy
-import credentials
+#import credentials >> For testing!
 import msg
 import time
+
+from os import environ
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_SECRET = environ['ACCESS_SECRET']
 
 auth = tweepy.OAuthHandler(credentials.consumer_key, credentials.consumer_secret)
 auth.set_access_token(credentials.access_token,credentials.access_token_secret)
