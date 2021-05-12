@@ -33,7 +33,7 @@ def organize_data(timestamp):
     'Jul': '07', 'Aug':'08','Sep':'09','Oct':'10','Nov':'11','Dec':'12'}
     moment = time.ctime(int(timestamp)).split()
 
-    return f"{moment[2]}/{n_month[moment[1]]}/{moment[-1]}, às {moment[-2]}:"
+    return f"{moment[2]}/{n_month[moment[1]]}/{moment[-1]}, às {moment[-2]} (GMT):"
 
 def composer():
 
