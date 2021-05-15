@@ -14,7 +14,7 @@ auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
 api = tweepy.API(auth)
 
  
-hours = 12
+hours = 2
 tweeting_time = 3600*hours
 
 
